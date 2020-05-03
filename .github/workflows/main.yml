@@ -1,0 +1,39 @@
+name: Build and deploy
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: true  # Fetch Hugo themes
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.69.2"
+
+      - name: Build
+        # remove --minify tag if you do not need it
+        # docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo --minify
+  deploy:
+    if: ${{ github.ref == 'master' }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          user_name: willfurnass
+          user_email: w.furnass@sheffield.ac.uk
