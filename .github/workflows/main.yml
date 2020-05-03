@@ -26,7 +26,7 @@ jobs:
         # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
   deploy:
-    if: ${{ github.ref == 'master' }}
+    if: github.event.pull_request.merged == 'true' && github.base_ref == 'master' 
     runs-on: ubuntu-latest
     needs: build
     steps:
