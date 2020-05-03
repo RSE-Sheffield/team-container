@@ -15,4 +15,6 @@ We share our discussions via this site.
 
 ## This site
 
-Is built using the [Hugo](https://gohugo.io/) static site generator.
+- Is built using the [Hugo](https://gohugo.io/) static site generator;
+- Is tested on pushes to / pull-requests against `master` using GitHub actions;
+- Rendered content is deployed to the `gh-pages` branch on pushes to `master` (i.e. when pull requests are merged).
