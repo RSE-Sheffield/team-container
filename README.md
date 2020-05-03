@@ -18,3 +18,8 @@ We share our discussions via this site.
 - Is built using the [Hugo](https://gohugo.io/) static site generator;
 - Is tested on pushes to / pull-requests against `master` using GitHub actions;
 - Rendered content is deployed to the `gh-pages` branch on pushes to `master` (i.e. when pull requests are merged).
+
+
+[![Build and deploy status](https://img.shields.io/github/workflow/status/willfurnass/team-container/build_and_deploy/master.svg)](https://github.com/willfurnass/team-container/actions)
+
+
