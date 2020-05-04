@@ -1,4 +1,4 @@
-baseURL = "https://willfurnass.github.io/team-container"
+baseURL = "https://rse-sheffield.github.io/team-container"
 languageCode = "en-gb"
 title = "Team Container @ TUOS"
 theme = "terminal"
