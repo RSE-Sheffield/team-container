@@ -12,7 +12,8 @@ showFullContent = false
 
 This group was set up to help researcher, research software engineers and IT Services staff discuss and demo *how to do containers*. 
 
-The first meeting, held today, wasn't widely advertised (sorry).
+The 0th meeting, held today, wasn't widely advertised (sorry) and was primarily focussed on what the meetup needs to do/cover.
+
 Here's a summary of what we discussed:
 
 ## Motivation for setting up this group
