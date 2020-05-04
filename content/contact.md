@@ -5,7 +5,7 @@ draft = false
 
 ## Request/offer/upvote a talk/demo
 
-Via [this GitHub Project board](https://github.com/willfurnass/team-container/projects/1).
+Via [this GitHub Project board](https://github.com/RSE-Sheffield/team-container/projects/1).
 
 
 ## Contact
