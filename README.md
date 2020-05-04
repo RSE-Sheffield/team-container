@@ -11,11 +11,11 @@ Team Container is a meetup for researchers and research software engineers at th
  - Best practices for building containers
  - Security inc. managing secrets and audits
 
-We share our discussions via this site.
+We share our discussions via the site managed using this git repository.
 
 ## About this site
-
-  - It is built using the [Hugo](https://gohugo.io/) static site generator
+  - This is the source for the site; to view the site itself visit [https://rse-sheffield.github.io/team-container/](https://rse-sheffield.github.io/team-container/)
+  - The site is built using the [Hugo](https://gohugo.io/) static site generator
   - It is [tested on pushes to / pull-requests](https://github.com/willfurnass/team-container/actions) against `master` using GitHub Actions
     [![Build and deploy status](https://img.shields.io/github/workflow/status/willfurnass/team-container/build_and_deploy/master.svg)](https://github.com/willfurnass/team-container/actions)
   - Rendered content should be deployed to the `gh-pages` branch on pushes to `master` (i.e. when pull requests are merged), again using GitHub Actions
