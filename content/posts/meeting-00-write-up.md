@@ -40,9 +40,9 @@ However, there are several things holding folks back:
 
 These varied widely between the ~8 people in attendance and included:
 
- - using the [rrtools](https://github.com/benmarwick/rrtools) framework to automate the building of papers containing computed results.  
+ - Using the [rrtools](https://github.com/benmarwick/rrtools) framework to automate the building of papers containing computed results.  
    Successful CD builds result in a Docker image containing the paper being pushed to DockerHub.
- - using Docker and, prior to its advent, [LXC](https://linuxcontainers.org/lxc/introduction/), to wrap services.
+ - Using Docker and, prior to its advent, [LXC](https://linuxcontainers.org/lxc/introduction/), to wrap services.
  - Building and serving Jupyter or RStudio environments using [BinderHub](https://binderhub.readthedocs.io/en/latest/).
  - Deploying sea-ice-tracking workflows on the European Space Agency's (ESA) [Polar Thematic Exploitation Platform (Polar TEP)](https://portal.polartep.io/ssoportal/pages/login.jsf) 
    using Docker and a private image registry.
