@@ -39,7 +39,7 @@ theme = "terminal"
   
     [languages.en.params.logo]
       logoText = "Team Container @ TUOS"
-      logoHomeLink = "/"
+      logoHomeLink = "/team-container"
   
     [languages.en.menu]
       [[languages.en.menu.main]]

@@ -1,5 +1,5 @@
 +++
-title = "Welcome to Team Container: kick-off meeting"
+title = "Meeting #0 write-up: what is Team Container?"
 date = "2020-05-04"
 author = "Will Furnass"
 authorTwitter = "willfurnass"
