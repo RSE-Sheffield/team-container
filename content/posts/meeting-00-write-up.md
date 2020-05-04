@@ -10,7 +10,7 @@ description = "Introducing Team Container: a discussion group at the University 
 showFullContent = false
 +++
 
-This group was set up to help researcher, research software engineers and IT Services staff discuss and demo *how to do containers*. 
+This group was set up to help researchers, research software engineers and IT Services staff discuss and demo *how to do containers*. 
 
 The 0th meeting, held today, wasn't widely advertised (sorry) and was primarily focussed on what the meetup needs to do/cover.
 
